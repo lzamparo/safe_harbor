@@ -4,7 +4,7 @@ N=50
 
 ### MEP && HSC overlap sites
 peaks_base=/Users/zamparol/projects/SeqDemote/data/ATAC/corces_heme/peaks
-harbor_base=/Users/zamparol/projects/SeqDemote/data/safe_harbor
+harbor_base=`pwd`
 bam_base=/Users/zamparol/projects/SeqDemote/data/ATAC/corces_heme/bam
 
 mep_peaks=$peaks_base/MEP/MEP_normalized_summit_heights.bed
